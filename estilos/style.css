@@ -221,8 +221,25 @@ h4{
 .item-inicio .dato{
     text-align: center;
 }
-
-
+.photo{
+    display: block;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px  double rgb(7, 34, 44);
+    border-radius: 20px;
+}
+.nombre{
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 10px 3px 10px rgb(98, 64, 153);
+    line-height: 2em;
+}
+.nombre:hover{
+   color: #c46729;
+   font-size: 18px;
+   text-shadow: 10px 3px 10px rgb(202, 128, 31);
+}
 
 /*boton*/
 .buttom{
