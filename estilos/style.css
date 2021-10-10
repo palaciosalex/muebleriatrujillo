@@ -14,16 +14,35 @@ font-family: sans-serif;
 
 
 }
-
+/*imagenes*/
 img{
     max-width: 100%;
     height: auto;
     border-radius: 3px;
 }
+.img-p{
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 3px  groove rgb(113, 99, 240);
+    border-radius: 50px;
+    box-shadow: 12px 25px 30px 1px rgba(156, 140, 170, 0.698);
+}
+
 a{
     text-decoration: none;
     color: inherit;
 }
+.cuadros{
+    height: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+/*--------*/
+
 /*Grilla*/
 .section{
    clear: both;
@@ -69,10 +88,45 @@ ul{
     color: white;
     font-weight: 300px;
     text-align: center;
+    list-style: none;
 }
-ul li{
-    display: inline;
+.nav > li{
+    display: inline-block;
 }
+
+.nav li a{
+    background-color: rgb(27, 27, 29);
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.nav li a:hover{
+    background-color: #005c7b;
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li{
+    position: relative;
+}
+
 .nav-0{
     display: inline-block;
     padding: 20px;
@@ -173,6 +227,7 @@ ul li{
    font-size: 18px;
    text-shadow: 10px 3px 10px rgb(199, 117, 11);
 }
+/*titulos*/
 .blog-tittle{
     font-weight: 500px;
     font-size: 2.5em;
@@ -205,6 +260,23 @@ h4{
     margin-bottom: 0;
     margin-top: 30px;
 }
+.subt{
+    font-size: 2em;
+    font-weight: 450;
+    margin-top: 30px;
+    text-align: left;
+    color: #2375a5;
+    text-shadow: 10px 3px 10px rgb(116, 103, 238);
+}
+.date{
+    font-size: 1.5em;
+    font-weight: 450;
+    color: #b81e09;
+    margin-top: 25px;
+    text-decoration-color: currentColor;
+    font-family: sans-serif;
+}
+
 /*items*/
 .item-container{
     display: grid;
@@ -226,8 +298,15 @@ h4{
     width: 20em;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
     border: 5px  double rgb(7, 34, 44);
     border-radius: 20px;
+  
+}
+.photo:hover{
+    background: #e6a43b;
+    opacity: 10;
+    visibility: visible;
 }
 .nombre{
     font-size: 15px;
@@ -239,6 +318,20 @@ h4{
    color: #c46729;
    font-size: 18px;
    text-shadow: 10px 3px 10px rgb(202, 128, 31);
+}
+
+/*EQUIPO SCRUM*/
+.item-contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 8px;
+    margin-bottom: 30px;
+}
+.item-init{
+    background-color: var(--color1);
+    padding: 10px;
+    text-align: justify;
+    border: black solid 2px;
 }
 
 /*boton*/
