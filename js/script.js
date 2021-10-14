@@ -19,6 +19,10 @@ const paginas=[
             {
             nombre: "Identificar el Equipo Scrum",
             enlace: "identificarEquipoScrum.html"
+            },
+            {
+            nombre: "Desarrollar Epicas",
+            enlace: "DesarrollarEpicas.html"
             }
             
         ]
