@@ -23,8 +23,11 @@ const paginas=[
             {
             nombre: "Desarrollar Epicas",
             enlace: "DesarrollarEpicas.html"
+            },
+            {
+            nombre: "Crear Backlog priorizado del producto",
+            enlace: "backlogPriorizado.html"
             }
-            
         ]
     },
 ];
