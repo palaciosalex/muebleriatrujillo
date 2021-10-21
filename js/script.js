@@ -27,7 +27,11 @@ const paginas=[
             {
             nombre: "Planificación",
             enlace: "planificacion.html"
-           }
+           },
+           {
+            nombre: "Crear Backlog priorizado del producto",
+            enlace: "backlogPriorizado.html"
+            }
         ]
     },
 ];
