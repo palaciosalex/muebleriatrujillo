@@ -23,8 +23,11 @@ const paginas=[
             {
             nombre: "Desarrollar Epicas",
             enlace: "DesarrollarEpicas.html"
-            }
-            
+            },
+            {
+            nombre: "Planificación",
+            enlace: "planificacion.html"
+           }
         ]
     },
 ];
