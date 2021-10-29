@@ -92,7 +92,7 @@ a{
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin: 20px auto 0 auto;
 }
 .prev, .next {
     cursor: pointer;
