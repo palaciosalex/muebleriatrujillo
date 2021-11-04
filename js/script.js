@@ -45,6 +45,22 @@ const paginas=[
             {
             nombre: "Estimar Historias de Usuario",
             enlace: "estimarHistoriasU.html"
+            },
+            {
+            nombre: "Comprometer Historias de Usuario",
+            enlace: "comprometerHistoriasU.html"
+            },
+            {
+            nombre: "Identificar Tareas",
+            enlace: "identificarTareas.html"
+            },
+            {
+            nombre: "Estimar Tareas",
+            enlace: "estimarTareas.html"
+            },
+            {
+            nombre: "Crear el Sprint Backlog",
+            enlace: "SprintBacklog.html"
             }
         ]
     }
