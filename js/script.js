@@ -41,6 +41,10 @@ const paginas=[
             {
             nombre: "Crear historias de usuario",
             enlace: "crearhistorias.html"
+            },
+            {
+            nombre: "Estimar Historias de Usuario",
+            enlace: "estimarHistoriasU.html"
             }
         ]
     }
