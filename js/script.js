@@ -63,6 +63,58 @@ const paginas=[
             enlace: "SprintBacklog.html"
             }
         ]
+    },
+    {
+        nombre:"Implementacion",
+        enlace: "#",
+        subpagina:[
+            
+            /* Implementacion*/
+            {
+            nombre: "Crear Entregables",
+            enlace: "crearEntregables.html"
+            },
+            {
+            nombre: "Realizar Daily Standup",
+            enlace: "realizarDailyStandup.html"
+            },
+            {
+            nombre: "Refinar el backlog priorizado del producto",
+            enlace: "refinarBacklog.html"
+            }                
+        ]
+    },
+    {
+        nombre:"Revision y Retrospectiva",
+        enlace: "#",
+        subpagina:[
+            
+            /* Revision retrospectiva*/
+            {
+            nombre: "Demostrar y Validar Sprint",
+            enlace: "demostrarVSprint.html"
+            },
+            {
+            nombre: "Retrospectiva del Sprint",
+            enlace: "retrospectivaSprint.html"
+            }                
+        ]
+    },
+    {
+        nombre:"Lanzamiento",
+        enlace: "#",
+        subpagina:[
+            
+            /* lanzamiento*/
+            {
+            nombre: "Enviar Entregable",
+            enlace: "enviarEntregable.html"
+            },
+            {
+            nombre: "Retrospectiva del Proyecto",
+            enlace: "retrospectivaProyecto.html"
+            }                
+        ]
     }
 
 ];
