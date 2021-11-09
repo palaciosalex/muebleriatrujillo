@@ -109,11 +109,11 @@ const paginas=[
             {
             nombre: "Enviar Entregable",
             enlace: "enviarEntregable.html"
-            },
+            }/*,
             {
             nombre: "Retrospectiva del Proyecto",
             enlace: "retrospectivaProyecto.html"
-            }                
+            }  */              
         ]
     }
 
