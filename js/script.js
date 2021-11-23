@@ -35,7 +35,7 @@ const paginas=[
         ]
     },
     {
-        nombre: "Planificación y estimación",
+        nombre: "Sprint I",
         enlace: "#",
         subpagina:[
             {
@@ -61,15 +61,7 @@ const paginas=[
             {
             nombre: "Crear el Sprint Backlog",
             enlace: "SprintBacklog.html"
-            }
-        ]
-    },
-    {
-        nombre:"Implementacion",
-        enlace: "#",
-        subpagina:[
-            
-            /* Implementacion*/
+            },
             {
             nombre: "Crear Entregables",
             enlace: "crearEntregables.html"
@@ -81,15 +73,7 @@ const paginas=[
             {
             nombre: "Refinar el backlog priorizado del producto",
             enlace: "refinarBacklog.html"
-            }                
-        ]
-    },
-    {
-        nombre:"Revision y Retrospectiva",
-        enlace: "#",
-        subpagina:[
-            
-            /* Revision retrospectiva*/
+            }   ,
             {
             nombre: "Demostrar y Validar Sprint",
             enlace: "demostrarVSprint.html"
@@ -97,25 +81,67 @@ const paginas=[
             {
             nombre: "Retrospectiva del Sprint",
             enlace: "retrospectivaSprint.html"
-            }                
-        ]
-    },
-    {
-        nombre:"Lanzamiento",
-        enlace: "#",
-        subpagina:[
-            
-            /* lanzamiento*/
+            },
             {
             nombre: "Enviar Entregable",
             enlace: "enviarEntregable.html"
-            }/*,
-            {
-            nombre: "Retrospectiva del Proyecto",
-            enlace: "retrospectivaProyecto.html"
-            }  */              
+            }
         ]
-    }
+    },
+    {
+        nombre: "Sprint II",
+        enlace: "#",
+        subpagina:[
+            {
+            nombre: "Crear historias de usuario",
+            enlace: "crearhistorias2.html"
+            },
+            {
+            nombre: "Estimar Historias de Usuario",
+            enlace: "estimarHistoriasU2.html"
+            },
+            {
+            nombre: "Comprometer Historias de Usuario",
+            enlace: "comprometerHistoriasU2.html"
+            },
+            {
+            nombre: "Identificar Tareas",
+            enlace: "identificarTareas2.html"
+            },
+            {
+            nombre: "Estimar Tareas",
+            enlace: "estimarTareas2.html"
+            },
+            {
+            nombre: "Crear el Sprint Backlog",
+            enlace: "SprintBacklog2.html"
+            },
+            {
+            nombre: "Crear Entregables",
+            enlace: "crearEntregables2.html"
+            },
+            {
+            nombre: "Realizar Daily Standup",
+            enlace: "realizarDailyStandup2.html"
+            },
+            {
+            nombre: "Refinar el backlog priorizado del producto",
+            enlace: "refinarBacklog2.html"
+            }   ,
+            {
+            nombre: "Demostrar y Validar Sprint",
+            enlace: "demostrarVSprint2.html"
+            },
+            {
+            nombre: "Retrospectiva del Sprint",
+            enlace: "retrospectivaSprint2.html"
+            },
+            {
+            nombre: "Enviar Entregable",
+            enlace: "enviarEntregable2.html"
+            }
+        ]
+    }  
 
 ];
 var resultado="";
