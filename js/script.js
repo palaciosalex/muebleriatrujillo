@@ -115,7 +115,7 @@ const paginas=[
             {
             nombre: "Crear el Sprint Backlog",
             enlace: "SprintBacklog2.html"
-            }/*,
+            },
             {
             nombre: "Crear Entregables",
             enlace: "crearEntregables2.html"
@@ -139,7 +139,7 @@ const paginas=[
             {
             nombre: "Enviar Entregable",
             enlace: "enviarEntregable2.html"
-            }*/
+            }
         ]
     }  
 
