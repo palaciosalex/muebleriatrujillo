@@ -141,7 +141,29 @@ const paginas=[
             enlace: "enviarEntregable2.html"
             }
         ]
-    }  
+    },
+    {
+        nombre: "Iteración III",
+        enlace: "#",
+        subpagina:[
+            {
+            nombre: "Historias del usuario",
+            enlace: "crearhistorias3.html"
+            } ,
+            {
+            nombre: "Valores",
+            enlace: "valoresxp.html"
+            },
+            {
+            nombre: "Criterios de pruebas de aceptación",
+            enlace: "pruebasaceptacionxp.html"
+            },
+            {
+            nombre: "Plan de iteración",
+            enlace: "iteracionxp.html"
+            }
+        ]
+    }    
 
 ];
 var resultado="";
