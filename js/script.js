@@ -161,7 +161,25 @@ const paginas=[
             {
             nombre: "Plan de iteración",
             enlace: "iteracionxp.html"
-            }
+            },
+            {
+                nombre: "Tarjetas SRC",
+                enlace: "tarjetassrc.html"
+                } ,
+                {
+                nombre: "Programación por parejas",
+                enlace: "prograparejas.html"
+                },
+                {
+                nombre: "Pruebas de aceptación",
+                enlace: "pruebasaceptacionxp.html"
+                },
+                {
+                nombre: "Incremento del Software",
+                enlace: "lanzamientoxp.html"
+                }
+
+            
         ]
     }    
 
