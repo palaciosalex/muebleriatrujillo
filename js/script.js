@@ -172,7 +172,7 @@ const paginas=[
                 },
                 {
                 nombre: "Pruebas de aceptación",
-                enlace: "pruebasaxp.html"
+                enlace: "pruebasxp.html"
                 },
                 {
                 nombre: "Incremento del Software",
